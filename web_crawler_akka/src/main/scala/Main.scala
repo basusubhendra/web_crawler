@@ -103,7 +103,7 @@ def startHttpGetIfPossible(urlsPending: Vector[Url],
    receive(Vector.empty, getInProgress = false)
  }
 
-object web_crawler_object {
+object web_crawler {
   def main() {
     cwlr = new Crawler(http, parseLinks, reportTo)
   }
